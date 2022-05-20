@@ -1,0 +1,29 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("../../root.css");
+
+.footer-container {
+  line-height: 5rem;
+  position: absolute;
+  bottom: 0;
+  left: 40vw;
+}
+.content {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  color: var(--primary-color);
+  margin: 0 2rem;
+}
+.footer-icons {
+  font-size: 3.1rem;
+  display: flex;
+  justify-content: center;
+}
+.m-top {
+  margin-top: 4rem;
+}
