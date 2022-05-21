@@ -70,12 +70,12 @@ const Modal = () => {
           <option value="10">10</option>
           <option value="5">5</option>
         </select>
-      </form> 
+      </form>
 
       <div className="modal-buttons">
         {editTask ? (
           <button
-          className="btns modal-update-btn"
+            className="btns modal-update-btn"
             onClick={() =>
               dispatch({
                 type: "UPDATE-HANDLER",
@@ -105,7 +105,7 @@ const Modal = () => {
             </button>
 
             <button
-            className="modal-add-btn btns"
+              className="modal-add-btn btns"
               onClick={() =>
                 dispatch({
                   type: "ADD-TASK",

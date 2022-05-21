@@ -28,3 +28,15 @@
 .task-delete {
   margin-right: 1.3rem;
 }
+
+@media all and (max-width: 800px) {
+  .single-task-div {
+    max-width: 70%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .single-task-div {
+    max-width: 78%;
+  }
+}

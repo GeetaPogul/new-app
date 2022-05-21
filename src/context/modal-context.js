@@ -1,4 +1,4 @@
-import { useContext,createContext, useState } from "react";
+import { useContext, createContext, useState } from "react";
 import { useTodo } from "./todo-context";
 
 const ModalContext = createContext();
