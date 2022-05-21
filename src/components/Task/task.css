@@ -1,0 +1,30 @@
+.single-task-div {
+  display: flex;
+  background-color: var(--primary-color);
+  color: white;
+  max-width: 39.2%;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.task-title {
+  word-break: break-word;
+  text-align: left;
+  display: flex;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.task-btn {
+  margin-left: auto;
+  margin-top: 0.6rem;
+  font-size: 2.4rem;
+  cursor: pointer;
+  color: white;
+}
+
+.task-edit,
+.task-delete {
+  margin-right: 1.3rem;
+}

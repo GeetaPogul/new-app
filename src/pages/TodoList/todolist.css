@@ -1,0 +1,43 @@
+.todo-container {
+  height: 30rem;
+  border: 1px solid red;
+}
+
+.task {
+  position: relative;
+  margin: 0 auto;
+}
+
+.tasks-container {
+  display: flex;
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.links {
+  text-decoration: none;
+
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tasks-desc {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.container-heading {
+  color: white;
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+.todo-add {
+  margin-left: auto;
+}

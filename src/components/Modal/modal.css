@@ -1,0 +1,89 @@
+.modal {
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  background-color: orange;
+  width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  position: absolute;
+  height: 30rem;
+  top: 1rem;
+  left: 35%;
+  z-index: 1;
+}
+
+.modal-input {
+  display: block;
+  padding-left: 5px;
+  font-size: 1.6rem;
+  width: 85%;
+  height: 3.5rem;
+  margin: 7px auto;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.modal-desc {
+  min-height: 5rem;
+}
+
+.modal-heading {
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 7px auto;
+}
+
+.modal-limit {
+  width: 85%;
+  height: 3.5rem;
+  border-radius: 2px;
+  padding-left: 4px;
+  outline: none;
+  border: none;
+  margin: auto 3rem;
+}
+
+.modal-btn {
+  margin: 2rem 0 0 3rem;
+  padding: 5px 9px;
+  justify-content: space-between;
+  font-size: 1rem;
+  width: 80%;
+  cursor: pointer;
+  display: flex;
+}
+
+.btns {
+  border: none;
+  padding: 1rem 2.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-add-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+.modal-add-btn:hover {
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid var(--primary-color);
+}
+
+.modal-cancel-btn {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.modal-update-btn {
+  margin: 2rem 4rem 0 0;
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
