@@ -27,3 +27,14 @@
 .m-top {
   margin-top: 4rem;
 }
+
+@media all and (max-width: 480px) {
+  .footer-container {
+    position: relative;
+    left: 2vw;
+  }
+
+  .footer-links {
+    margin: 0 1rem;
+  }
+}

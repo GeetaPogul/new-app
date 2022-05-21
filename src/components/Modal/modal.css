@@ -87,3 +87,11 @@
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
+@media all and (max-width: 480px) {
+  .modal {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+  }
+}

@@ -1,3 +1,6 @@
 .left-arrow {
   font-size: 2rem;
 }
+.desc {
+  height: min-content;
+}

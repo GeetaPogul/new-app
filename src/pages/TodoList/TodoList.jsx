@@ -26,7 +26,7 @@ function TodoList() {
             className="btns todo-add modal-add-btn "
             onClick={() => dispatch({ type: "MODAL" })}
           >
-          Add
+            Add
           </button>
         </div>
 
